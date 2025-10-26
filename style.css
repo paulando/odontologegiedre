@@ -52,10 +52,18 @@ body {
   }
   .mobile {
     margin: 1rem!important;
-    margin-top: -15rem!important;
+    margin-top: -2rem!important;
+  }
+  .mobile-1 {
+    padding: 1rem!important;
+  }
+  .mobile-2 {
+    height: auto!important;
+    width: auto!important;
+    max-width: 100%!important;
   }
   html {
-    font-size: 80%;
+    font-size: 60%;
   }
 }
 
