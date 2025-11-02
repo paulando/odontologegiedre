@@ -98,6 +98,7 @@ body {
   }
   .hero-img {
     margin: 3rem auto 0!important;
+    max-width: 100%;
   }
   .container {
     max-width: 480px;
