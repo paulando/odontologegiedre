@@ -69,6 +69,8 @@ body {
 
     .hero-img {
       height: 90vh;
+      max-width: 100%;
+      object-fit: cover;
     }
 }
 
@@ -138,9 +140,9 @@ nav ul li a {
   text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1130px) {
   html {
-    font-size: 70%;
+    font-size: 92%;
   }
   .column {
     flex-basis: 100%;
@@ -164,6 +166,15 @@ nav ul li a {
   .hero-img {
     margin: 3rem auto 0!important;
     max-width: 100%;
+  }
+  .font-hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 70%;
   }
   .container {
     max-width: 480px;
