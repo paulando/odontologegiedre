@@ -12,6 +12,8 @@ body {
 
 .container {
   max-width: 1344px;
+  padding-left: .75rem;
+  padding-right: .75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,6 +57,19 @@ body {
       flex: 0 0 25%;
       max-width: 25%;
     }
+
+    .hero {
+      height: 100vh;
+    }
+
+    .hero > .container,
+    .hero > .container .columns {
+      height: 100%;
+    }
+
+    .hero-img {
+      height: 90vh;
+    }
 }
 
 .is-align-items-center {
@@ -79,7 +94,13 @@ body {
     max-width: 100%!important;
   }
   html {
-    font-size: 60%;
+    font-size: 70%;
+  }
+  .hero-img {
+    margin: 3rem auto 0!important;
+  }
+  .container {
+    max-width: 480px;
   }
 }
 
@@ -107,7 +128,8 @@ body {
     font-size: 1.5rem;
     border-radius: 1rem;
     font-weight: 500;
-    color: #000;
+    color: #fff;
+    border: 2px solid #fff;
     text-decoration: none;
     transform: scale(1);
     transition: 300ms;
